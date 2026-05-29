@@ -1,0 +1,37 @@
+{
+    "1":
+    {
+        "Q": "What was the price of a barrel of oil in February 2015?",
+        "Choices":["$57.36","$47.82","$50.24","$39.72","Omit"],
+        "A":"$50.24",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "In which month was the price of a barrel of oil the lowest in 2015?",
+        "Choices":["March","May","July","December","Omit"],
+        "A":"December",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "What was the price range of a barrel of oil in 2015?",
+        "Choices":["$35 - $65","$48.36 - $60.95","$37.04 - $48.36","$37.04 - $60.95","Omit"],
+        "A":"$37.04 - $60.95",
+        "Type":"Determine Range"
+    },
+    "4":
+    {
+        "Q": "Over the course of the second half of 2015, the price of a barrel of oil was ____________.",
+        "Choices":["rising","falling","staying","Omit"],
+        "A":"falling",
+        "Type":"Find Correlations/Trends"
+    },
+    "5":
+    {
+        "Q": "About how much did the price of a barrel of oil fall from April to September in 2015?",
+        "Choices":["$4","$15","$17","$45","Omit"],
+        "A":"$15",
+        "Type":"Make Comparisons"
+    }
+}

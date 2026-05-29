@@ -1,0 +1,26 @@
+{
+    "1":
+    {
+        "Q": "What is the value of G at D?",
+        "Choices":["37%","49%","58%","74%","Omit"],
+        "VA":"74%",
+        "FA":"37%",
+        "Type":"Retrieve value"
+    },
+    "2":
+    {
+        "Q": "Among A, B, C, and D, which has the smallest E?",
+        "Choices":["A","B","C","D","Omit"],
+        "VA":"D",
+        "FA":"A",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "The value of G at B is lower than the value of G at D.",
+        "Choices":["True","False","Omit"],
+        "VA":"True",
+        "FA":"False",
+        "Type":"Make Comparisons"
+    }
+}

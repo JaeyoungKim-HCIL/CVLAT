@@ -1,0 +1,23 @@
+{
+    "1":
+    {
+        "Q": "About what is the global smartphone market share of Samsung?",
+        "Choices":["15%","25%","33%","50%","Omit"],
+        "A":"25%",
+        "Type":"Retrieve Value (relative value)"
+    },
+    "2":
+    {
+        "Q": "In which company is the global smartphone market share the smallest?",
+        "Choices":["Apple","Xiaomi","Lenovo","Others","Omit"],
+        "A":"Lenovo",
+        "Type":"Find Extremum (relative value)"
+    },
+    "3":
+    {
+        "Q": "The global smartphone market share of Apple is larger than that of Huawei.",
+        "Choices":["True","False","Omit"],
+        "A":"True",
+        "Type":"Make Comparisons (relative value)"
+    }
+}

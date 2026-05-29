@@ -1,0 +1,63 @@
+{
+    "1": {
+        "Q": "What is the y-coordinate of F?",
+        "Choices": [
+            "330",
+            "430",
+            "530",
+            "560",
+            "Omit"
+        ],
+        "VA": "430",
+        "FA": "330",
+        "Type": "Retrieve Value"
+    },
+    "2": {
+        "Q": "Among F, I, D, and K, which has the largest x-coordinate?",
+        "Choices": [
+            "F",
+            "I",
+            "D",
+            "K",
+            "Omit"
+        ],
+        "VA": "K",
+        "FA": "D",
+        "Type": "Find Extremum"
+    },
+    "3": {
+        "Q": "What is the range of y-coordinates across all elements?",
+        "Choices": [
+            "290 - 550",
+            "240 - 380",
+            "190 - 560",
+            "220 - 480",
+            "Omit"
+        ],
+        "VA": "290 - 550",
+        "FA": "190 - 560",
+        "Type": "Determine Range"
+    },
+    "4": {
+        "Q": "In general, the size increases as the x-coordinate increases.",
+        "Choices": [
+            "True",
+            "False",
+            "Omit"
+        ],
+        "VA": "False",
+        "FA": "True",
+        "Type": "Characterize Distribution"
+    },
+    "5": {
+        "Q": "C has a larger size than J.",
+        "Choices": [
+            "True",
+            "False",
+            "Omit"
+        ],
+        "VA": "True",
+        "FA": "False",
+        "Type": "Make Comparisons"
+    }
+}

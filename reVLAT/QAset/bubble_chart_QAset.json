@@ -1,0 +1,51 @@
+{
+    "1":
+    {
+        "Q": "What is the total length of the metro system in Beijing?",
+        "Choices":["330km","400km","530km","560km","Omit"],
+        "A":"330km",
+        "Type":"Retrieve value"
+    },
+    "2":
+    {
+        "Q": "Which city's metro system has the largest number of stations?",
+        "Choices":["Seoul","Beijing","New York City","Paris","Omit"],
+        "A":"Paris",
+        "Type":"Find extremum"
+    },
+    "3":
+    {
+        "Q": "What is the range of the total length of the metro systems?",
+        "Choices":["150 - 600km","240 - 380km","240 - 560km","190 - 530km","Omit"],
+        "A":"190 - 530km",
+        "Type":"Determine range"
+    },
+    "4":
+    {
+        "Q": "Which city's metro system does lie outside the relationship between the total system length and the number of stations most?",
+        "Choices":["Moscow","New York City","Beijing","London","Omit"],
+        "A":"Moscow",
+        "Type":"Find anomalies"
+    },
+    "5":
+    {
+        "Q": "A group of the metro systems of the world has approximately 200 stations and around a 200 km system length.",
+        "Choices":["True","False","Omit"],
+        "A":"False",
+        "Type":"Find clusters"
+    },
+    "6":
+    {
+        "Q": "In general, the ridership of the metro system increases as the number of stations increases.",
+        "Choices":["True","False","Omit"],
+        "A":"True",
+        "Type":"Find correlations/trends"
+    },
+    "7":
+    {
+        "Q": "The metro system in Paris has more ridership than the metro system in New York City.",
+        "Choices":["True","False","Omit"],
+        "A":"True",
+        "Type":"Make Comparisons"
+    }
+}

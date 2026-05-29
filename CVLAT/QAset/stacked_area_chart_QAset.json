@@ -1,0 +1,50 @@
+{
+    "1":
+    {
+        "Q": "What was Japan's GDP in 2010?",
+        "Choices":["5,000B","5,700B","6,200B","6,800B","Omit"],
+        "VA":"5,000B",
+        "FA":"5,700B",
+        "Type":"Retrieve Value (absolute value)"
+    },
+    "2":
+    {
+        "Q": "About what was the ratio of Japan's GDP to China's GDP in 2014",
+        "Choices":["1 to 1","1 to 2","1 to 3","1 to 4","Omit"],
+        "VA":"1 to 1",
+        "FA":"1 to 2",
+        "Type":"Retrieve Value (relative value)"
+    },
+    "3":
+    {
+        "Q": "Over the course of years between 2009 and 2014, when was the United States' GDP at its maximum?",
+        "Choices":["2009","2011","2013","2014","Omit"],
+        "VA":"2013",
+        "FA":"2014",
+        "Type":"Find Extremum"
+    },
+    "4":
+    {
+        "Q": "China's GDP was ______ from 2009 to 2012.",
+        "Choices":["rising","falling","staying","Omit"],
+        "VA":"staying",
+        "FA":"rising",
+        "Type":"Find Correlations/Trends"
+    },
+    "5":
+    {
+        "Q": "The United States' GDP in 2014 was more than it was in 2013",
+        "Choices":["True","False","Omit"],
+        "VA":"False",
+        "FA":"True",
+        "Type":"Make Comparisons (absolute value)"
+    },
+    "6":
+    {
+        "Q": "Over the course of years between 2009 and 2014, the United States' GDP was always greater than China's.",
+        "Choices":["True","False","Omit"],
+        "VA":"False",
+        "FA":"True",
+        "Type":"Make Comparisons (relative value)"
+    }
+}

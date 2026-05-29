@@ -1,0 +1,26 @@
+{
+    "1":
+    {
+        "Q": "About what is the global smartphone market share of Samsung?",
+        "Choices":["9%","14%","22%","33%","Omit"],
+        "VA":"14%",
+        "FA":"22%",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "In which company is the global smartphone market share the smallest?",
+        "Choices":["Apple","Xiaomi","OPPO","Others","Omit"],
+        "VA":"Apple",
+        "FA":"OPPO",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "The global smartphone market share of OPPO is larger than that of Apple.",
+        "Choices":["True","False","Omit"],
+        "VA":"True",
+        "FA":"False",
+        "Type":"Make Comparisons"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "1":
+    {
+        "Q": "What was South Korea's average fixed internet speed?",
+        "Choices":["6.24Mbps","9.67Mbps","14.23Mbps","26.7Mbps","Omit"],
+        "VA":"6.24Mbps",
+        "FA":"26.7Mbps",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "Which country had the fastest average fixed internet speed in Asia?",
+        "Choices":["Laos","Nepal","South Korea","Vietnam","Omit"],
+        "VA":"Nepal",
+        "FA":"South Korea",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "What is the range of average fixed internet speeds in Asian countries?",
+        "Choices":["0 - 14.51Mbps", "1.83 - 25Mbps", "2.5 - 26.7Mbps","4.84 - 15.21Mbps","Omit"],
+        "VA":"1.83 - 25Mbps",
+        "FA":"2.5 - 26.7Mbps",
+        "Type":"Determine Range"
+    },
+    "4":
+    {
+        "Q": "How many countries had slower average fixed internet speeds than South Korea?",
+        "Choices":["2 countries","7 countries","10 countries","13 countries","Omit"],
+        "VA":"2 countries",
+        "FA":"13 countries",
+        "Type":"Make Comparisons"
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "1":
+    {
+        "Q": "What is the weight for the person who is 165.1 cm tall?",
+        "Choices":["53.9 kg","67.7 kg","70.5 kg","82.7 kg","Omit"],
+        "A":"70.5 kg",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "What is the height for the tallest person among the 85 males?",
+        "Choices":["175.3 cm","192 cm","197.1 cm","200 cm","Omit"],
+        "A":"197.1 cm",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "What is the range in weight for the 85 males?",
+        "Choices":["40 - 130 kg","62.3 - 90.9 kg","53.9 - 102.3 kg","53.9 - 123.6 kg","Omit"],
+        "A":"53.9 - 123.6 kg",
+        "Type":"Determine Range"
+    },
+    "4":
+    {
+        "Q": "What is the height for a person who lies outside the others the most?",
+        "Choices":["167.4 cm","175.3 cm","193 cm","197.1 cm","Omit"],
+        "A":"175.3 cm",
+        "Type":"Find Anomalies"
+    },
+    "5":
+    {
+        "Q": "A group of males are gathered around the height of 176 cm and the weight of 70 kg.",
+        "Choices":["True","False","Omit"],
+        "A":"True",
+        "Type":"Find Clusters"
+    },
+    "6":
+    {
+        "Q": "There is a negative linear relationship between the height and the weight of the 85 males.",
+        "Choices":["True","False","Omit"],
+        "A":"False",
+        "Type":"Find Correlations/Trends"
+    },
+    "7":
+    {
+        "Q": "The weights for males with the height of 188 cm are all the same.",
+        "Choices":["True","False","Omit"],
+        "A":"False",
+        "Type":"Make Comparisons"
+    }
+}

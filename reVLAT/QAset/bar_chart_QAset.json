@@ -1,0 +1,30 @@
+{
+    "1":
+    {
+        "Q": "What is the average internet speed in Japan?",
+        "Choices":["7 Mbps","10.2 Mbps","11.6 Mbps","15 Mbps","Omit"],
+        "A":"11.6 Mbps",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "In which country is the average internet speed the fastest in Asia?",
+        "Choices":["Australia","Hong Kong","Sri Lanka","Vietnam","Omit"],
+        "A":"Sri Lanka",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "What is the range of the average internet speed in Asia?",
+        "Choices":["0 - 20 Mbps","2.5 - 16 Mbps","9.5 - 19 Mbps","10 - 15 Mbps","Omit"],
+        "A":"9.5 - 19 Mbps",
+        "Type":"Determine Range"
+    },
+    "4":
+    {
+        "Q": "How many countries in Asia is the average Internet speed slower than South Korea?",
+        "Choices":["6 countries","7 countries","8 countries","11 countries","Omit"],
+        "A":"8 countries",
+        "Type":"Make Comparisons"
+    }
+}

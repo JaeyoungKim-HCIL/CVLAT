@@ -1,0 +1,26 @@
+{
+    "1":
+    {
+        "Q": "How many people are there between the ages of 5 and 9?",
+        "Choices":["150M","253M","435M","680M","Omit"],
+        "VA":"150M",
+        "FA":"680M",
+        "Type":"Retrieve value"
+    },
+    "2":
+    {
+        "Q": "What is the age group with the smallest population?",
+        "Choices":["0 - 4","20 - 24","50 - 54","Above 100","Omit"],
+        "VA":"0 - 4",
+        "FA":"Above 100",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "The population between ages 25 and 29 is larger than the population between ages 70 and 74.",
+        "Choices":["True","False","Omit"],
+        "VA":"False",
+        "FA":"True",
+        "Type":"Make Comparisons"
+    }
+}

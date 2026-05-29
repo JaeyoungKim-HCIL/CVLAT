@@ -1,0 +1,23 @@
+{
+    "1":
+    {
+        "Q": "What was the unemployment rate for Indiana (IN) in 2015?",
+        "Choices":["1.1% - 2.3%","2.3% - 3.4%","3.4% - 4.6%","4.6% - 5.7%","Omit"],
+        "A":"3.4% - 4.6%",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "In which state was the unemployment rate the highest in 2015?",
+        "Choices":["Alaska (AK)","New Mexico (NM)","Florida (FL)","New York (NY)","Omit"],
+        "A":"New Mexico (NM)",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "In 2015, the unemployment rate for Washington (WA) was higher than that of Wisconsin (WI).",
+        "Choices":["True","False","Omit"],
+        "A":"True",
+        "Type":"Make Comparisons"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "1":
+    {
+        "Q": "What is the value bin for R?",
+        "Choices":["1.1% - 2.3%","2.8% - 3.4%","3.8% - 4.4%","4.6% - 5.8%","Omit"],
+        "VA":"1.1% - 2.3%",
+        "FA":"3.8% - 4.4%",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "Among AW, V, AD, and G, which has the highest value bin?",
+        "Choices":["AW","V","AD","G","Omit"],
+        "VA":"AD",
+        "FA":"G",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "The value bin for I is higher than the value bin for P.",
+        "Choices":["True","False","Omit"],
+        "VA":"False",
+        "FA":"True",
+        "Type":"Make Comparisons"
+    }
+}

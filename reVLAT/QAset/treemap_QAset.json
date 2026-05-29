@@ -1,0 +1,23 @@
+{
+    "1":
+    {
+        "Q": "For which website was the number of unique visitors the largest in 2010?",
+        "Choices":["Facebook","Amazon","Bing","Google","Omit"],
+        "A":"Bing",
+        "Type":"Find Extremum (relative value)"
+    },
+    "2":
+    {
+        "Q": "The number of unique visitors for Target was more than that of Ask in 2010.",
+        "Choices":["True","False","Omit"],
+        "A":"True",
+        "Type":"Make Comparisons (relative value)"
+    },
+    "3":
+    {
+        "Q": "Amazon is nested in the Computer category.",
+        "Choices":["True","False","Omit"],
+        "A":"False",
+        "Type":"Identify the Hierarchical Structure"
+    }
+}

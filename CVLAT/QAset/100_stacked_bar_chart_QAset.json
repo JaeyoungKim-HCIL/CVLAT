@@ -1,0 +1,26 @@
+{
+    "1":
+    {
+        "Q": "What is the approval rating of Republicans among the people who have the education level of Postgraduate Study?",
+        "Choices":["37%","49%","58%","74%","Omit"],
+        "VA":"74%",
+        "FA":"37%",
+        "Type":"Retrieve value"
+    },
+    "2":
+    {
+        "Q": "What is the education level of people in which the Democrats have the lowest approval rating?",
+        "Choices":["High School Graduate or Less","Some College Degree","College Graduate","Postgraduate study","Omit"],
+        "VA":"Postgraduate study",
+        "FA":"High School Graduate or Less",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "The approval rating of Republicans for the people who have the education level of Some College Degree is lower than that for the people who have the education level of Postgraduate Study.",
+        "Choices":["True","False","Omit"],
+        "VA":"True",
+        "FA":"False",
+        "Type":"Make Comparisons"
+    }
+}

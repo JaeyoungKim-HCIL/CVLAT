@@ -1,0 +1,26 @@
+{
+    "1":
+    {
+        "Q": "For which website was the number of unique visitors the largest in 2010?",
+        "Choices":["HP","BBC","Amazon","Google","Omit"],
+        "VA":"HP",
+        "FA":"Google",
+        "Type":"Find Extremum"
+    },
+    "2":
+    {
+        "Q": "The number of unique visitors for Bank of America was more than that of Facebook in 2010.",
+        "Choices":["True","False","Omit"],
+        "VA":"True",
+        "FA":"False",
+        "Type":"Make Comparisons"
+    },
+    "3":
+    {
+        "Q": "Citybank is nested in the Computer category.",
+        "Choices":["True","False","Omit"],
+        "VA":"True",
+        "FA":"False",
+        "Type":"Identify the Hierarchical Structure"
+    }
+}

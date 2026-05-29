@@ -1,0 +1,42 @@
+{
+    "1":
+    {
+        "Q": "What was IBM's revenue in Q2 2018?",
+        "Choices":["$8.4B","$12.3B","$15.4B","$20B","Omit"],
+        "VA":"$12.3B",
+        "FA":"$20B",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "About what is the ratio of Facebook's Q3 revenue to Q2 revenue in 2018?",
+        "Choices":["1 to 1","1 to 3","1 to 5","1 to 10","Omit"],
+        "VA":"1 to 3",
+        "FA":"1 to 1",
+        "Type":"Retrieve Value"
+    },
+    "3":
+    {
+        "Q": "Which company had the highest revenue in Q4 2018?",
+        "Choices":["Intel","Oracle","Dell","Comcast","Omit"],
+        "VA":"Oracle",
+        "FA":"Comcast",
+        "Type":"Find Extremum"
+    },
+    "4":
+    {
+        "Q": "IBM's Q2 revenue is larger than Facebook's Q2 revenue.",
+        "Choices":["True","False","Omit"],
+        "VA":"False",
+        "FA":"True",
+        "Type":"Make Comparisons"
+    },
+    "5":
+    {
+        "Q": "The ratio of the revenue of Q3 to the revenue of Q2 in HP is higher than that of Oracle.",
+        "Choices":["True","False","Omit"],
+        "VA":"False",
+        "FA":"True",
+        "Type":"Make Comparisons"
+    }
+}

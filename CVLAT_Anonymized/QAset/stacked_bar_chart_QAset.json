@@ -1,0 +1,63 @@
+{
+    "1": {
+        "Q": "What is the value of Q2 at F?",
+        "Choices": [
+            "8.4",
+            "12.3",
+            "15.4",
+            "20",
+            "Omit"
+        ],
+        "VA": "12.3",
+        "FA": "20",
+        "Type": "Retrieve Value"
+    },
+    "2": {
+        "Q": "At A, about what is the ratio of Q3 to Q2?",
+        "Choices": [
+            "1 to 1",
+            "1 to 3",
+            "1 to 5",
+            "1 to 10",
+            "Omit"
+        ],
+        "VA": "1 to 3",
+        "FA": "1 to 1",
+        "Type": "Find Anomalies"
+    },
+    "3": {
+        "Q": "Among B, D, G, and I, which has the highest Q4?",
+        "Choices": [
+            "B",
+            "D",
+            "G",
+            "I",
+            "Omit"
+        ],
+        "VA": "D",
+        "FA": "I",
+        "Type": "Find Extremum"
+    },
+    "4": {
+        "Q": "The value of Q2 at F is larger than the value of Q2 at A.",
+        "Choices": [
+            "True",
+            "False",
+            "Omit"
+        ],
+        "VA": "False",
+        "FA": "True",
+        "Type": "Make Comparisons"
+    },
+    "5": {
+        "Q": "The ratio of Q3 to Q2 at C is higher than the ratio of Q3 to Q2 at D.",
+        "Choices": [
+            "True",
+            "False",
+            "Omit"
+        ],
+        "VA": "False",
+        "FA": "True",
+        "Type": "Make Comparisons"
+    }
+}

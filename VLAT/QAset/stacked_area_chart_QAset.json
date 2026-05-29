@@ -1,0 +1,44 @@
+{
+    "1":
+    {
+        "Q": "What was the number of girls named ‘Amelia’ in 2010 in the UK?",
+        "Choices":["1,500","3,800","4,200","8,000","Omit"],
+        "A":"4,200",
+        "Type":"Retrieve Value (absolute value)"
+    },
+    "2":
+    {
+        "Q": "About what was the ratio of the number of girls named ‘Olivia’ to those named ‘Isla’ in 2014 in the UK?",
+        "Choices":["1 to 1","1 to 2","1 to 3","1 to 4","Omit"],
+        "A":"1 to 1",
+        "Type":"Retrieve Value (relative value)"
+    },
+    "3":
+    {
+        "Q": "Over the course of years between 2009 and 2014, when was the number of girls named ‘Amelia’ at the maximum?",
+        "Choices":["2009","2011","2012","2014","Omit"],
+        "A":"2012",
+        "Type":"Find Extremum"
+    },
+    "4":
+    {
+        "Q": "The number of girls named ‘Isla’ was __________ from 2009 to 2012.",
+        "Choices":["rising","falling","staying","Omit"],
+        "A":"rising",
+        "Type":"Find Correlations/Trends"
+    },
+    "5":
+    {
+        "Q": "In the UK, the number of girls named ‘Amelia’ in 2014 was more than it was in 2013,",
+        "Choices":["True","False","Omit"],
+        "A":"False",
+        "Type":"Make Comparisons (absolute value)"
+    },
+    "6":
+    {
+        "Q": "Over the course of years between 2009 and 2014, the number of girls named ‘Isla’ was always more than ‘Olivia’.",
+        "Choices":["True","False","Omit"],
+        "A":"False",
+        "Type":"Make Comparisons (relative value)"
+    }
+}

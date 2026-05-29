@@ -1,0 +1,34 @@
+{
+    "1":
+    {
+        "Q": "What is the y-value at x ≈ 9000?",
+        "Choices":["350","534","724","824","Omit"],
+        "VA":"350",
+        "FA":"724",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "What is the range of y-values for x between 0 and 15000?",
+        "Choices":["100 - 590.39","261.36 - 834.34","572 - 1013.25","372.68 - 1185.16","Omit"],
+        "VA":"100 - 590.39",
+        "FA":"572 - 1013.25",
+        "Type":"Determine Range"
+    },
+    "3":
+    {
+        "Q": "There is a positive linear relationship between x and y.",
+        "Choices":["True","False","Omit"],
+        "VA":"True",
+        "FA":"False",
+        "Type":"Find Correlations/Trends"
+    },
+    "4":
+    {
+        "Q": "All data points at x = 6000 have the same y-value.",
+        "Choices":["True","False","Omit"],
+        "VA":"True",
+        "FA":"False",
+        "Type":"Make Comparisons"
+    }
+}

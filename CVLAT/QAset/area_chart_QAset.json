@@ -1,0 +1,34 @@
+{
+    "1":
+    {
+        "Q": "What was the average Ethereum price in June 2023?",
+        "Choices":["$1,933.19","$2,073.18","$2,256.76","$2,461.72","Omit"],
+        "VA":"$2,256.76",
+        "FA":"$1,933.19",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "When was the average Ethereum price at minimum?",
+        "Choices":["September 2022","October 2023","June 2022","March 2023","Omit"],
+        "VA":"September 2022",
+        "FA":"June 2022",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "What was the range of the average price of Ethereum between January 2022 and December 2023?",
+        "Choices":["$1,427.98 - $2,876.32","$1,067.30 - $3,281.64","$2,129.62 - 2,481.64$","$1,581.47 - $2,876.3","Omit"],
+        "VA":"$1,427.98 - $2,876.32",
+        "FA":"$1,067.30 - $3,281.64",
+        "Type":"Determine Range"
+    },
+    "4":
+    {
+        "Q": "Over the course of 2023, the average price of Ethereum was ______.",
+        "Choices":["rising","falling","staying","Omit"],
+        "VA":"falling",
+        "FA":"rising",
+        "Type":"Find Correlations/Trends"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "1":
+    {
+        "Q": "For which website was the number of unique visitors the largest in 2010?",
+        "Choices":["Facebook","Amazon","Bing","Google","Omit"],
+        "A":"Google",
+        "Type":"Find Extremum (relative value)"
+    },
+    "2":
+    {
+        "Q": "The number of unique visitors for Amazon was more than that of Yahoo in 2010",
+        "Choices":["True","False","Omit"],
+        "A":"False",
+        "Type":"Make Comparisons (relative value)"
+    },
+    "3":
+    {
+        "Q": "Samsung is nested in the Financial category.",
+        "Choices":["True","False","Omit"],
+        "A":"False",
+        "Type":"Identify the Hierarchical Structure"
+    }
+}

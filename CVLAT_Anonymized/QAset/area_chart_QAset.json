@@ -1,0 +1,53 @@
+{
+    "1": {
+        "Q": "What is the value at R?",
+        "Choices": [
+            "1933.19",
+            "2073.18",
+            "2256.76",
+            "2461.72",
+            "Omit"
+        ],
+        "VA": "2256.76",
+        "FA": "1933.19",
+        "Type": "Retrieve Value"
+    },
+    "2": {
+        "Q": "At which position is the value at its minimum?",
+        "Choices": [
+            "I",
+            "V",
+            "F",
+            "O",
+            "Omit"
+        ],
+        "VA": "I",
+        "FA": "F",
+        "Type": "Find Extremum"
+    },
+    "3": {
+        "Q": "What is the range of values from A to X?",
+        "Choices": [
+            "1427.98 - 2876.32",
+            "1067.30 - 3281.64",
+            "2129.62 - 2481.64",
+            "1581.47 - 2876.3",
+            "Omit"
+        ],
+        "VA": "1427.98 - 2876.32",
+        "FA": "1067.30 - 3281.64",
+        "Type": "Determine Range"
+    },
+    "4": {
+        "Q": "Over positions M to X, the value was ______.",
+        "Choices": [
+            "rising",
+            "falling",
+            "staying",
+            "Omit"
+        ],
+        "VA": "falling",
+        "FA": "rising",
+        "Type": "Characterize Distribution"
+    }
+}

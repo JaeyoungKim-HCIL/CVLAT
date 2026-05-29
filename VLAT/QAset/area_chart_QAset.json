@@ -1,0 +1,30 @@
+{
+    "1":
+    {
+        "Q": "What was the average price of a pound of coffee beans in September 2013?",
+        "Choices":["$4.9","$5.0","$5.1","$5.2","Omit"],
+        "A":"$5.1",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "When was the average price of a pound of coffee beans at minimum?",
+        "Choices":["April 2013","September 2013","June 2014","December 2014","Omit"],
+        "A":"December 2014",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "What was the range of the average price of a pound of coffee beans between January 2013 and December 2014?",
+        "Choices":["$4.4 - $6.2","$4.6 - $5.9","$4.6 - $6.0","$4.6 - $6.1","Omit"],
+        "A":"$4.6 - $6.0",
+        "Type":"Determine Range"
+    },
+    "4":
+    {
+        "Q": "Over the course of 2013, the average price of a pound of coffee beans was ____________.",
+        "Choices":["rising","falling","staying","Omit"],
+        "A":"falling",
+        "Type":"Find Correlations/Trends"
+    }
+}

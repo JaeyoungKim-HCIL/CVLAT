@@ -1,0 +1,75 @@
+{
+    "1": {
+        "Q": "What is the value of I at B?",
+        "Choices": [
+            "5000",
+            "5700",
+            "6200",
+            "6800",
+            "Omit"
+        ],
+        "VA": "5000",
+        "FA": "5700",
+        "Type": "Retrieve Value"
+    },
+    "2": {
+        "Q": "About what is the ratio of I to H at F?",
+        "Choices": [
+            "1 to 1",
+            "1 to 2",
+            "1 to 3",
+            "1 to 4",
+            "Omit"
+        ],
+        "VA": "1 to 1",
+        "FA": "1 to 2",
+        "Type": "Find Anomalies"
+    },
+    "3": {
+        "Q": "Over positions A to F, at which position is G at its maximum?",
+        "Choices": [
+            "A",
+            "C",
+            "E",
+            "F",
+            "Omit"
+        ],
+        "VA": "E",
+        "FA": "F",
+        "Type": "Find Extremum"
+    },
+    "4": {
+        "Q": "From A to D, H was ______.",
+        "Choices": [
+            "rising",
+            "falling",
+            "staying",
+            "Omit"
+        ],
+        "VA": "staying",
+        "FA": "rising",
+        "Type": "Characterize Distribution"
+    },
+    "5": {
+        "Q": "The value of G at F is greater than the value of G at E.",
+        "Choices": [
+            "True",
+            "False",
+            "Omit"
+        ],
+        "VA": "False",
+        "FA": "True",
+        "Type": "Make Comparisons"
+    },
+    "6": {
+        "Q": "Over A to F, the value of G is always greater than the value of H.",
+        "Choices": [
+            "True",
+            "False",
+            "Omit"
+        ],
+        "VA": "False",
+        "FA": "True",
+        "Type": "Make Comparisons"
+    }
+}

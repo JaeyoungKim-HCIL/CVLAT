@@ -1,0 +1,42 @@
+{
+    "1":
+    {
+        "Q": "What was the price of a barrel of Brent Crude oil in February 2015?",
+        "Choices":["$58.10","$37.36","$47.61","$63.67","Omit"],
+        "VA":"$47.61",
+        "FA":"$58.10",
+        "Type":"Retrieve Value"
+    },
+    "2":
+    {
+        "Q": "In which month was the price of a barrel of Brent Crude oil the lowest in 2015?",
+        "Choices":["March","June","September","December","Omit"],
+        "VA":"June",
+        "FA":"December",
+        "Type":"Find Extremum"
+    },
+    "3":
+    {
+        "Q": "What was the price range of a barrel of Brent Crude oil in 2015?",
+        "Choices":["$31.36 - $58.33","$36.11 - $66.33","$41.63 - $61.04","$39.36 - $63.73","Omit"],
+        "VA":"$39.36 - $63.73",
+        "FA":"$36.11 - $66.33",
+        "Type":"Determine Range"
+    },
+    "4":
+    {
+        "Q": "Over the course of the second half of 2015, the price of a barrel of Brent Crude oil was ____________.",
+        "Choices":["rising","falling","staying","Omit"],
+        "VA":"rising",
+        "FA":"falling",
+        "Type":"Find Correlations/Trends"
+    },
+    "5":
+    {
+        "Q": "About how much did the price of a barrel of Brent Crude oil fall from April to September in 2015?",
+        "Choices":["$4.33","$8.74","$19.43","$24.73","Omit"],
+        "VA":"$4.33",
+        "FA":"$19.43",
+        "Type":"Make Comparisons"
+    }
+}

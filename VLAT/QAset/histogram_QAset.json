@@ -1,0 +1,23 @@
+{
+    "1":
+    {
+        "Q": "How many people have rated the taxi between 4.0 and 4.2?",
+        "Choices":["145","153","200","240","Omit"],
+        "A":"153",
+        "Type":"Retrieve value (derived value)"
+    },
+    "2":
+    {
+        "Q": "What is the rating that the people have rated the taxi the most?",
+        "Choices":["4.2-4.4","4.4-4.6","4.6-4.8","4.8-5.0","Omit"],
+        "A":"4.4-4.6",
+        "Type":"Find Extremum (derived value)"
+    },
+    "3":
+    {
+        "Q": "More people have rated the taxi between 4.6 and 4.8 than between 4.2 and 4.4.",
+        "Choices":["True","False","Omit"],
+        "A":"True",
+        "Type":"Make Comparisons (derived value)"
+    }
+}

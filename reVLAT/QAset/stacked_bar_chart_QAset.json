@@ -1,0 +1,37 @@
+{
+    "1":
+    {
+        "Q": "What is the cost of peanuts in Las Vegas?",
+        "Choices":["$4.00","$9.00","$9.50","$12.00","Omit"],
+        "A":"$4.00",
+        "Type":"Retrieve Value (absolute value)"
+    },
+    "2":
+    {
+        "Q": "About what is the ratio of the cost of a sandwich to the total cost of room service in Seattle?",
+        "Choices":["1 to 4","1 to 5","4 to 10","1 to 10","Omit"],
+        "A":"1 to 10",
+        "Type":"Retrieve Value (relative value)"
+    },
+    "3":
+    {
+        "Q": "In which city is the cost of soda the highest?",
+        "Choices":["New York City","Boston","Atlanta","Chicago","Omit"],
+        "A":"Chicago",
+        "Type":"Find Extremum"
+    },
+    "4":
+    {
+        "Q": "The cost of water in Boston is higher than that of New York City.",
+        "Choices":["True","False","Omit"],
+        "A":"False",
+        "Type":"Make Comparisons (absolute value)"
+    },
+    "6":
+    {
+        "Q": "The ratio of the cost of peanuts to the cost of water in Las Vegas is higher than that of San Francisco.",
+        "Choices":["True","False","Omit"],
+        "A":"False",
+        "Type":"Make Comparisons (relative value)"
+    }
+}

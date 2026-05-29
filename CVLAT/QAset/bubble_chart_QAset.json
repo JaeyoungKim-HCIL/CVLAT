@@ -1,0 +1,42 @@
+{
+    "1":
+    {
+        "Q": "What is the total length of the metro system in Seoul?",
+        "Choices":["330km","430km","530km","560km","Omit"],
+        "VA":"430km",
+        "FA":"330km",
+        "Type":"Retrieve value"
+    },
+    "2":
+    {
+        "Q": "Which city's metro system has the largest number of stations?",
+        "Choices":["Seoul","Beijing","New York City","Delhi","Omit"],
+        "VA":"Delhi",
+        "FA":"New York City",
+        "Type":"Find extremum"
+    },
+    "3":
+    {
+        "Q": "What is the range of the total length of the metro systems?",
+        "Choices":["290 - 550km","240 - 380km","190 - 560km","220 - 480km","Omit"],
+        "VA":"290 - 550km",
+        "FA":"190 - 560km",
+        "Type":"Determine range"
+    },
+    "4":
+    {
+        "Q": "In general, the ridership of the metro system increases as the number of stations increases.",
+        "Choices":["True","False","Omit"],
+        "VA":"False",
+        "FA":"True",
+        "Type":"Find correlations/trends"
+    },
+    "5":
+    {
+        "Q": "The metro system in Mexico City has more ridership than the metro system in Shanghai.",
+        "Choices":["True","False","Omit"],
+        "VA":"True",
+        "FA":"False",
+        "Type":"Make Comparisons"
+    }
+}

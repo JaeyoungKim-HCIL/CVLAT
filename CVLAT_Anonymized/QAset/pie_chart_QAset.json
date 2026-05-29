@@ -1,0 +1,39 @@
+{
+    "1": {
+        "Q": "About what is the share of B?",
+        "Choices": [
+            "9%",
+            "14%",
+            "22%",
+            "33%",
+            "Omit"
+        ],
+        "VA": "14%",
+        "FA": "22%",
+        "Type": "Retrieve Value"
+    },
+    "2": {
+        "Q": "Among A, E, C, and F, which has the smallest share?",
+        "Choices": [
+            "A",
+            "E",
+            "C",
+            "F",
+            "Omit"
+        ],
+        "VA": "A",
+        "FA": "C",
+        "Type": "Find Extremum"
+    },
+    "3": {
+        "Q": "The share of C is larger than the share of A.",
+        "Choices": [
+            "True",
+            "False",
+            "Omit"
+        ],
+        "VA": "True",
+        "FA": "False",
+        "Type": "Make Comparisons"
+    }
+}
