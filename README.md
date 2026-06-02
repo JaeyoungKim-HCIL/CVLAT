@@ -120,7 +120,7 @@ If you use CVLAT, please cite:
 
 ```bibtex
 @article{lee2026cvlat,
-  title   = {Disentangling Visual Correctness and Factual Correctness in {LVLMs}' Visualization Literacy},
+  title   = {Disentangling Visual and Factual Correctness in {LVLMs}' Visualization Literacy},
   author  = {Lee, Soohyun and Kim, Jaeyoung and Park, Seokhyeon and Lee, Sihyeon and Song, Jiwon and Kim, Bohyoung and Song, Hyunjoo and Seo, Jinwook},
   journal = {IEEE Transactions on Visualization and Computer Graphics},
   year    = {2026},
