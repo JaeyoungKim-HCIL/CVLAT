@@ -2,7 +2,7 @@
 
 This repository accompanies the paper:
 
-> **Disentangling Visual Correctness and Factual Correctness in LVLMs' Visualization Literacy** <br>
+> **Disentangling Visual and Factual Correctness in LVLMs' Visualization Literacy** <br>
 > Soohyun Lee\*, Jaeyoung Kim\*, Seokhyeon Park, Sihyeon Lee, Jiwon Song, Bohyoung Kim, Hyunjoo Song, Jinwook Seo <br>
 > *IEEE Transactions on Visualization and Computer Graphics (TVCG), under review.* <br>
 > (\*co-first authors)
