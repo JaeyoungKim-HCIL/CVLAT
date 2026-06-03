@@ -159,4 +159,4 @@ those materials.
 ## Contact
 
 For questions about CVLAT, contact the co-first authors:
-Soohyun Lee (shlee@hcil.snu.ac.kr) and Jaeyoung Kim (jykim@madidt.com).
+Soohyun Lee (shlee@hcil.snu.ac.kr) and Jaeyoung Kim (jaeyoung.kim.cs@gmail.com).
