@@ -1,5 +1,7 @@
 # CVLAT: Counterfactual Visualization Literacy Assessment Test
 
+[![arXiv](https://img.shields.io/badge/arXiv-2606.03142-b31b1b.svg)](https://arxiv.org/abs/2606.03142)
+
 This repository accompanies the paper:
 
 > **Disentangling Visual and Factual Correctness in LVLMs' Visualization Literacy** <br>
@@ -7,7 +9,7 @@ This repository accompanies the paper:
 > *IEEE Transactions on Visualization and Computer Graphics (TVCG), under review.* <br>
 > (\*co-first authors)
 >
-> 📄 arXiv: [link TBD]
+> 📄 arXiv: [2606.03142](https://arxiv.org/abs/2606.03142)
 
 This repository contains visualization images and question-answer sets for the
 visualization literacy benchmarks used in our paper — **CVLAT** (ours), **VLAT**, and
@@ -120,11 +122,13 @@ If you use CVLAT, please cite:
 
 ```bibtex
 @article{lee2026cvlat,
-  title   = {Disentangling Visual and Factual Correctness in {LVLMs}' Visualization Literacy},
-  author  = {Lee, Soohyun and Kim, Jaeyoung and Park, Seokhyeon and Lee, Sihyeon and Song, Jiwon and Kim, Bohyoung and Song, Hyunjoo and Seo, Jinwook},
-  journal = {IEEE Transactions on Visualization and Computer Graphics},
-  year    = {2026},
-  note    = {Under review}
+  title         = {Disentangling Visual and Factual Correctness in {LVLMs}' Visualization Literacy},
+  author        = {Lee, Soohyun and Kim, Jaeyoung and Park, Seokhyeon and Lee, Sihyeon and Song, Jiwon and Kim, Bohyoung and Song, Hyunjoo and Seo, Jinwook},
+  journal       = {arXiv preprint arXiv:2606.03142},
+  eprint        = {2606.03142},
+  archivePrefix = {arXiv},
+  year          = {2026},
+  note          = {Under review at IEEE TVCG}
 }
 ```
 *(Update with the final DOI / volume / pages once published.)*
